@@ -10,7 +10,6 @@ object GlobalClass {
   val spark = SparkSession
     .builder
     .appName("Spark-App")
-    .master("local")
     .getOrCreate()
 
 
